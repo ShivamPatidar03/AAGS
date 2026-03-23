@@ -1,0 +1,26 @@
+# ---------- Backend ----------
+backend/venv/
+backend/__pycache__/
+backend/**/*.pyc
+backend/.env
+
+# Model files
+backend/model/*.pkl
+backend/model/*.joblib
+backend/model/*.h5
+backend/model/*.pt
+
+# ---------- Frontend ----------
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.vite/
+
+# ---------- General ----------
+.DS_Store
+Thumbs.db
+*.log
+.env
+__pycache__/
+*.pyc
+.vscode/
