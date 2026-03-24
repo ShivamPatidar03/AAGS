@@ -1,17 +1,21 @@
 import pickle
+from pathlib import Path
 from app.services.ml_service import predict_price
 
+# Base directory (backend/)
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
 # Load lookup tables
-with open("model/yield_table.pkl", "rb") as f:
+with open(BASE_DIR / "model" / "yield_table.pkl", "rb") as f:
     yield_table = pickle.load(f)
 
-with open("model/soil_factor.pkl", "rb") as f:
+with open(BASE_DIR / "model" / "soil_factor.pkl", "rb") as f:
     soil_factor = pickle.load(f)
 
-with open("model/season_factor.pkl", "rb") as f:
+with open(BASE_DIR / "model" / "season_factor.pkl", "rb") as f:
     season_factor = pickle.load(f)
 
-with open("model/input_cost.pkl", "rb") as f:
+with open(BASE_DIR / "model" / "input_cost.pkl", "rb") as f:
     input_cost = pickle.load(f)
 
 
