@@ -118,22 +118,22 @@ AAGS-Project/
 
 The system provides:
 
-Crop profitability dashboard
-Price prediction
-Yield and cost analysis
-Market trend charts
-Soil impact and crop comparison insights
+- Crop profitability dashboard
+- Price prediction
+- Yield and cost analysis
+- Market trend charts
+- Soil impact and crop comparison insights
 
 ---
 
 ## Future Scope
 
-Add more crops and regions
-Integrate real-time mandi APIs
-Add farmer recommendation system
-Add multilingual voice assistant
-Add greenhouse automation integration
-Mobile app version for farmers
+- Add more crops and regions
+- Integrate real-time mandi APIs
+- Add farmer recommendation system
+- Add multilingual voice assistant
+- Add greenhouse automation integration
+- Mobile app version for farmers
 
 --
 
@@ -141,16 +141,16 @@ Mobile app version for farmers
 
 Shivam Patidar
 
-Computer Science Student
-Aspiring Agentic AI Developer
-Building AI solutions for agriculture
+- Computer Science Student
+- Aspiring Agentic AI Developer
+- Building AI solutions for agriculture
 
 -Skills
 
-Machine Learning
-Python & FastAPI
-React & Full Stack Development
-Data Science
+- Machine Learning
+- Python & FastAPI
+- React & Full Stack Development
+- Data Science
 
 -Vision
 
